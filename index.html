@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusAI - Cyber Ultimate Edition</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="images/photo_2026-07-08_11-39-11.jpg">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="120">
+
+    <div class="particles-container" id="particles"></div>
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold fs-3" href="#home">Nexus<span class="gradient-text">AI</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                style="border-color: rgba(255,255,255,0.1);">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="nav-spy">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-glow ms-lg-4">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="images/4745ed0eec38a43cea86f373a08d179e.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="hero-video-overlay"></div>
+
+        <div class="hero-glow glow-purple"></div>
+        <div class="hero-glow glow-pink"></div>
+
+        <div class="container" style="position: relative; z-index: 3;">
+            <div class="row align-items-center g-5 overflow-hidden">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="badge mb-3 px-3 py-2 rounded-pill"
+                        style=" color: whitesmoke; border: 1px solid rgba(143, 52, 228, 0.2);"> Cyber Dynamic System
+                        v2.6
+                    </span>
+                    <h1 class="display-3 fw-bold mb-4" style="line-height: 1.2;">
+                        Build The Future With <br><span class="gradient-text typing-text" id="typing"></span>
+                    </h1>
+                    <p class="lead mb-5" style="color: var(--text-secondary); max-width: 550px;">
+                        NexusAI empowers businesses with cutting-edge artificial intelligence solutions. Transform your
+                        data into actionable insights and automate your workflow.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#services" class="btn btn-glow">Explore Services <i
+                                class="bi bi-arrow-right ms-2"></i></a>
+                        <a href="#" class="btn btn-outline-glow"><i class="bi bi-play-circle me-2"></i> Watch Demo</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="floating-container">
+                        <div class="glass-card p-3">
+                            <img src="images/photo_2026-07-07_22-14-42.jpg" alt="AI Core" class="img-fluid rounded-4"
+                                style="height: 420px; object-fit: cover; width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us-->
+    <section id="about" class="py-5 my-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge mb-3 px-3 py-2 rounded-pill"
+                    style="background: rgba(255,255,255,0.02); color: var(--text-secondary); border: 1px solid var(--glass-border);">About
+                    Us</span>
+                <h2 class="display-5 fw-bold">Pioneering <span class="gradient-text">AI Revolution</span></h2>
+            </div>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="glass-card p-3">
+                        <img src="images/photo_2026-07-07_22-20-50.jpg" alt="Processing" class="img-fluid rounded-4"
+                            style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="fw-bold mb-4">Transforming Ideas Into <span class="gradient-text">Intelligent
+                            Solutions</span></h3>
+                    <p style="color: var(--text-secondary);" class="mb-4">At NexusAI, we combine deep expertise in
+                        machine learning, natural language processing, and computer vision to create solutions that
+                        drive real business value.</p>
+                    <ul class="list-unstyled mt-4 space-y-3">
+                        <li class="mb-3"><i class="bi bi-patch-check-fill me-2"
+                                style="color: var(--accent-secondary);"></i> Advanced Machine Learning Models</li>
+                        <li class="mb-3"><i class="bi bi-patch-check-fill me-2"
+                                style="color: var(--accent-secondary);"></i> Real-time Data Processing</li>
+                        <li class="mb-3"><i class="bi bi-patch-check-fill me-2"
+                                style="color: var(--accent-secondary);"></i> Cloud-Based AI Infrastructure</li>
+                        <li class="mb-3"><i class="bi bi-patch-check-fill me-2"
+                                style="color: var(--accent-secondary);"></i> Enterprise-Grade Security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- statistics-->
+    <section id="stats" class="py-5 my-5">
+        <div class="container">
+            <div class="glass-card p-5">
+                <div class="row text-center g-4">
+                    <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="bi bi-emoji-smile fs-1" style="color:rgb(73, 138, 212) ;"></i>
+                        <h3 class="counter-value mt-2" data-target="500">0</h3>
+                        <p style="color: var(--text-secondary);" class="small text-uppercase">Satisfied Clients</p>
+                    </div>
+                    <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="bi bi-code-slash fs-1" style="color: rgb(73, 138, 212) ;"></i>
+                        <h3 class="counter-value mt-2" data-target="1200">0</h3>
+                        <p style="color: var(--text-secondary);" class="small text-uppercase">Projects Completed</p>
+                    </div>
+                    <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="bi bi-cup-hot fs-1" style="color:rgb(73, 138, 212) ;"></i>
+                        <h3 class="counter-value mt-2" data-target="5000">0</h3>
+                        <p style="color: var(--text-secondary);" class="small text-uppercase">Cups of Coffee</p>
+                    </div>
+                    <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="bi bi-award fs-1" style="color: rgb(73, 138, 212) ;"></i>
+                        <h3 class="counter-value mt-2" data-target="50">0</h3>
+                        <p style="color: var(--text-secondary);" class="small text-uppercase">Awards Won</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our services-->
+    <section id="services" class="py-5 my-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge mb-3 px-3 py-2 rounded-pill"
+                    style="background: rgba(255,255,255,0.02); color: var(--text-secondary); border: 1px solid var(--glass-border);">Our
+                    Services</span>
+                <h2 class="display-5 fw-bold">Intelligent <span class="gradient-text">Solutions</span></h2>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card p-4 h-100">
+                        <div class="service-icon"><i class="bi bi-cpu"></i></div>
+                        <h4 class="fw-bold mb-3">Machine Learning</h4>
+                        <p style="color: var(--text-secondary);" class="small">Custom ML models trained on your data for
+                            predictive analytics and automation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card p-4 h-100">
+                        <div class="service-icon"><i class="bi bi-robot"></i></div>
+                        <h4 class="fw-bold mb-3">NLP & Chatbots</h4>
+                        <p style="color: var(--text-secondary);" class="small">Intelligent conversational AI and natural
+                            language processing solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card p-4 h-100">
+                        <div class="service-icon"><i class="bi bi-eye"></i></div>
+                        <h4 class="fw-bold mb-3">Computer Vision</h4>
+                        <p style="color: var(--text-secondary);" class="small">Advanced image recognition, object
+                            detection, and visual analytics.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="glass-card p-4 h-100">
+                        <div class="service-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                        <h4 class="fw-bold mb-3">Predictive Analytics</h4>
+                        <p style="color: var(--text-secondary);" class="small">Data-driven forecasting to optimize your
+                            business decisions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="glass-card p-4 h-100">
+                        <div class="service-icon"><i class="bi bi-cloud-arrow-up"></i></div>
+                        <h4 class="fw-bold mb-3">Cloud AI</h4>
+                        <p style="color: var(--text-secondary);" class="small">Scalable cloud-based AI infrastructure
+                            for enterprise applications.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="glass-card p-4 h-100">
+                        <div class="service-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4 class="fw-bold mb-3">AI Consulting</h4>
+                        <p style="color: var(--text-secondary);" class="small">Strategic guidance for integrating AI
+                            into your business processes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio-->
+    <section id="portfolio" class="py-5 my-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge mb-3 px-3 py-2 rounded-pill"
+                    style="background: rgba(255,255,255,0.02); color: var(--text-secondary); border: 1px solid var(--glass-border);">Portfolio</span>
+                <h2 class="display-5 fw-bold">Our <span class="gradient-text">Recent Work</span></h2>
+            </div>
+            <div class="text-center-m mb-5" data-aos="fade-up">
+                <button class="filter-btn-n active" data-filter="all">All</button>
+                <button class="filter-btn-n" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn-n" data-filter="nlp">NLP</button>
+                <button class="filter-btn-n" data-filter="cv">Computer Vision</button>
+            </div>
+            <div class="row g-4" id="portfolioGrid">
+                <div class="col-lg-4 col-md-6 portfolio-item-wrapper" data-category="ml" data-aos="zoom-in">
+                    <div class="portfolio-item">
+                        <img src="images/photo_2026-07-07_22-23-46.jpg" alt="Project">
+                        <div class="portfolio-overlay">
+                            <h5>Predictive Dashboard</h5>
+                            <p class="text-pink small">Machine Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item-wrapper" data-category="nlp" data-aos="zoom-in"
+                    data-aos-delay="100">
+                    <div class="portfolio-item">
+                        <img src="images/photo_2026-07-07_22-23-39.jpg" alt="Project">
+                        <div class="portfolio-overlay">
+                            <h5>AI Chatbot Platform</h5>
+                            <p class="text-pink small">NLP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item-wrapper" data-category="cv" data-aos="zoom-in"
+                    data-aos-delay="200">
+                    <div class="portfolio-item">
+                        <img src="images/photo_2026-07-07_22-23-35.jpg" alt="Project">
+                        <div class="portfolio-overlay">
+                            <h5>Facial Recognition</h5>
+                            <p class="text-pink small">Computer Vision</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item-wrapper" data-category="ml" data-aos="zoom-in"
+                    data-aos-delay="300">
+                    <div class="portfolio-item">
+                        <img src="images/photo_2026-07-07_22-26-17.jpg" alt="Project">
+                        <div class="portfolio-overlay">
+                            <h5>Fraud Detection AI</h5>
+                            <p class="text-pink small">Machine Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item-wrapper" data-category="nlp" data-aos="zoom-in"
+                    data-aos-delay="400">
+                    <div class="portfolio-item">
+                        <img src="images/photo_2026-07-07_22-24-46.jpg" alt="Project">
+                        <div class="portfolio-overlay">
+                            <h5>Sentiment Analysis</h5>
+                            <p class="text-pink small">NLP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item-wrapper" data-category="cv" data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="portfolio-item">
+                        <img src="images/photo_2026-07-07_22-24-42.jpg" alt="Project">
+                        <div class="portfolio-overlay">
+                            <h5>Medical Image AI</h5>
+                            <p class="text-pink small">Computer Vision</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials-->
+    <section id="testimonials" class="py-5 my-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge mb-3 px-3 py-2 rounded-pill"
+                    style="background: rgba(255,255,255,0.02); color: var(--text-secondary); border: 1px solid var(--glass-border);">Testimonials</span>
+                <h2 class="display-5 fw-bold">What Our <span class="gradient-text">Clients Say</span></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card h-100">
+                        <p style="color: var(--text-secondary); font-style: italic; font-size: 0.95rem;">"NexusAI
+                            transformed our business operations with their cutting-edge AI solutions. The results
+                            exceeded our expectations!"</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <img src="images/photo_2026-07-07_22-31-06.jpg" class="rounded-circle me-3" width="45"
+                                height="45" alt="Client">
+                            <div>
+                                <h6 class="mb-0 fw-bold">John Anderson</h6><small class="text-muted">CEO,
+                                    TechCorp</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card h-100">
+                        <p style="color: var(--text-secondary); font-style: italic; font-size: 0.95rem;">"The NLP
+                            chatbot they developed for us increased customer satisfaction by 45%. Absolutely brilliant
+                            work! Thank you for everything."</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <img src="images/photo_2026-07-07_22-31-26.jpg" class="rounded-circle me-3" width="45"
+                                height="45" alt="Client">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Sarah Mitchell</h6><small class="text-muted">CTO,
+                                    InnovateLab</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card h-100">
+                        <p style="color: var(--text-secondary); font-style: italic; font-size: 0.95rem;">"Their computer
+                            vision solution revolutionized our quality control process. Highly recommended! Thank you
+                            for everything."</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <img src="images/photo_2026-07-07_22-32-30.jpg" class="rounded-circle me-3" width="45"
+                                height="45" alt="Client">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Michael Roberts</h6><small class="text-muted">Director,
+                                    ManufacturePro</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our team-->
+    <section id="team" class="py-5 my-5 position-relative overflow-hidden">
+
+        <div class="team-bg-glow"></div>
+
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge mb-3 px-3 py-2 rounded-pill premium-badge"> Core Team
+                </span>
+                <h2 class="display-5 fw-bold text-white">Meet The <span class="gradient-text">Innovators</span></h2>
+                <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto; font-size: 0.95rem;">The
+                    brilliant minds shaping the future of intelligence.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="premium-team-card">
+                        <div class="member-image-wrapper">
+                            <img src="images/photo_2026-07-07_23-40-50.jpg" class="member-img" alt="Dr. Alex Chen">
+                            <div class="member-socials">
+                                <a href="#" class="social-icon-btn" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="social-icon-btn" title="GitHub"><i class="bi bi-github"></i></a>
+                                <a href="#" class="social-icon-btn" title="X"><i class="bi bi-twitter-x"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5 class="member-name">Dr. Alex Chen</h5>
+                            <span class="member-role">Chief AI Officer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="premium-team-card">
+                        <div class="member-image-wrapper">
+                            <img src="images/photo_2026-07-07_23-40-57.jpg" class="member-img" alt="Emily Watson">
+                            <div class="member-socials">
+                                <a href="#" class="social-icon-btn" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="social-icon-btn" title="GitHub"><i class="bi bi-github"></i></a>
+                                <a href="#" class="social-icon-btn" title="X"><i class="bi bi-twitter-x"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5 class="member-name">Emily Watson</h5>
+                            <span class="member-role">Lead NLP Engineer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="premium-team-card">
+                        <div class="member-image-wrapper">
+                            <img src="images/photo_2026-07-07_23-41-03.jpg" class="member-img" alt="Marcus Rivera">
+                            <div class="member-socials">
+                                <a href="#" class="social-icon-btn" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="social-icon-btn" title="GitHub"><i class="bi bi-github"></i></a>
+                                <a href="#" class="social-icon-btn" title="X"><i class="bi bi-twitter-x"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5 class="member-name">Marcus Rivera</h5>
+                            <span class="member-role">Computer Vision Lead</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="premium-team-card">
+                        <div class="member-image-wrapper">
+                            <img src="images/photo_2026-07-07_23-41-09.jpg" class="member-img" alt="Sophia Kim">
+                            <div class="member-socials">
+                                <a href="#" class="social-icon-btn" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="social-icon-btn" title="GitHub"><i class="bi bi-github"></i></a>
+                                <a href="#" class="social-icon-btn" title="X"><i class="bi bi-twitter-x"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5 class="member-name">Sophia Kim</h5>
+                            <span class="member-role">Data Science Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 my-5">
+        <div class="container" data-aos="zoom-in">
+            <div class="cta-section text-center">
+                <h2 class="display-4 fw-bold text-white mb-3">Ready to Transform Your Business?</h2>
+                <p class="lead text-white-50 mb-4">Let's discuss how our AI solutions can drive your success.</p>
+                <a href="#contact" class="btn btn-glow">Get In Touch <i class="bi bi-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacts-->
+    <section id="contact" class="py-5 my-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge mb-3 px-3 py-2 rounded-pill premium-badge">Contact Us</span>
+                <h2 class="display-5 fw-bold text-white">Get In <span class="gradient-text">Touch</span></h2>
+                <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto; font-size: 0.95rem;">
+                    Have a question or want to work together? Drop us a line.
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="premium-glass-card p-4 p-md-5"
+                        style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 24px; backdrop-filter: blur(12px);">
+                        <form>
+                            <div class="row g-4">
+                                <!-- Name -->
+                                <div class="col-md-6">
+                                    <div class="input-group-custom">
+                                        <input type="text" id="userName" required class="form-control premium-input"
+                                            placeholder=" ">
+                                        <i class="bi bi-person input-icon"></i>
+                                        <label for="userName" class="input-label">Your Name</label>
+                                    </div>
+                                </div>
+                                <!-- Email -->
+                                <div class="col-md-6">
+                                    <div class="input-group-custom">
+                                        <input type="email" id="userEmail" required class="form-control premium-input"
+                                            placeholder=" ">
+                                        <i class="bi bi-envelope input-icon"></i>
+                                        <label for="userEmail" class="input-label">Your Email</label>
+                                    </div>
+                                </div>
+                                <!-- Message -->
+                                <div class="col-12">
+                                    <div class="input-group-custom">
+                                        <textarea id="userMessage" required class="form-control premium-input" rows="5"
+                                            style="resize:none;" placeholder=" "></textarea>
+                                        <i class="bi bi-chat-left-text input-icon textarea-icon"></i>
+                                        <label for="userMessage" class="input-label textarea-label">Your Message</label>
+                                    </div>
+                                </div>
+                                <!-- Submit Button -->
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-premium-glow w-100 py-3">
+                                        <span>Send Message</span>
+                                        <i class="bi bi-send-fill ms-2 btn-icon"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="ultra-footer pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <!-- Brand Column -->
+                <div class="col-lg-4 col-md-10">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <h4 class="text-white fw-bold mb-0">Nexus<span class="gradient-text">AI</span></h4>
+                    </div>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; max-width: 320px; line-height: 1.7;">
+                        Empowering the future with artificial intelligence. Building intelligent solutions for
+                        tomorrow's most complex digital challenges.
+                    </p>
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="#" class="footer-social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Twitter X"><i
+                                class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Instagram"><i
+                                class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h6 class="text-white fw-bold mb-3 text-uppercase small tracking-wider footer-heading">Quick Links
+                    </h6>
+                    <ul class="list-unstyled footer-link-list">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h6 class="text-white fw-bold mb-3 text-uppercase small tracking-wider footer-heading">Services</h6>
+                    <ul class="list-unstyled footer-link-list">
+                        <li><a href="#" class="footer-link">Machine Learning</a></li>
+                        <li><a href="#" class="footer-link">NLP Systems</a></li>
+                        <li><a href="#" class="footer-link">Computer Vision</a></li>
+                        <li><a href="#" class="footer-link">Cloud Infrastructure</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-4 col-md-4">
+                    <h6 class="text-white fw-bold mb-3 text-uppercase small tracking-wider footer-heading">Newsletter
+                    </h6>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+                        Subscribe for the latest neural network insights and breakthrough AI research.
+                    </p>
+                    <div class="input-group mt-3 newsletter-input-group">
+                        <input type="email" class="form-control custom-input" placeholder="Your email address"
+                            style="border-radius: 12px 0 0 12px !important;">
+                        <button class="btn btn-glow px-4 footer-sub-btn"
+                            style="border-radius: 0 12px 12px 0 !important; padding: 0 20px;">
+                            <span class="me-1">Subscribe</span><i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                    <p class="small mt-2" style="color: var(--text-secondary); opacity: 0.7; font-size: 0.75rem;">
+                        <i class="bi bi-shield-check me-1"></i>No spam, unsubscribe anytime.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Copyright Bar -->
+            <div class="text-center pt-4"
+                style="border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-secondary);">
+                <p class="mb-0 small d-flex align-items-center justify-content-center flex-wrap gap-2">
+                    <span>&copy; 2026 NexusAI.</span>
+                    <span class="d-none d-sm-inline">·</span>
+                    <span>Crafted at an elite-level
+                        technical index.</span>
+                    <span class="d-none d-sm-inline">·</span>
+                    <span>All Rights Reserved.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="ap.js"></script>
+</body>
+
+</html>
